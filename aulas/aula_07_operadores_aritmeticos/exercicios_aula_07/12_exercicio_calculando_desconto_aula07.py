@@ -1,8 +1,8 @@
-p = float(input('Insira o valor do produto: '))
-d = int(input('Insira o valor de desconto: '))
+preço = float(input('Insira o valor do produto: '))
+desc = int(input('Insira o valor de desconto: '))
 
-t = (p * d)/100
+t = (preço * desc) /100
 
-vf = p-t
+vf = preço-t
 
-print(f'valor inicial: {p}\nvalor do desconto: {d}%\npreço final com desconto: {vf}')
+print(f'valor inicial: R$ {preço:.2f}\nvalor do desconto: {desc}%\npreço final com desconto: R$ {vf:.2f}')
