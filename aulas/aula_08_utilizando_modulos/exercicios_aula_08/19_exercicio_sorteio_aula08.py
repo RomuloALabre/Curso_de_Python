@@ -1,0 +1,1 @@
+# Um professor quer sortear um aluno. Faça um programa que ajude, lendo o nome deles e escrevendo o nome do escolhido.
