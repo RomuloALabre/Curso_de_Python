@@ -1,1 +1,4 @@
-import emoji
+
+
+print('Python é thumbs up:')
+😎❤😊😂😒😁
