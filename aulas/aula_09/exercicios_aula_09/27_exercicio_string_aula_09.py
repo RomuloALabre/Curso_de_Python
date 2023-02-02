@@ -1,0 +1,1 @@
+# Faça um programa que leia o nome de uma pessoa, mostrando em seguida o primeior e o último nome separadaente.

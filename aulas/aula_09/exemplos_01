@@ -1,0 +1,14 @@
+frase = 'Curso em Vídeo Python'
+
+#até o caracter 13
+print(frase[:13])
+#do 13 em diante
+print(frase[13:])
+#do 1 ao 14
+print(frase[1:15])
+# do 0 ao 21 de 2 em 2
+print(frase[0:21:2])
+# de 2 em 2
+print(frase[::2])
+
+
