@@ -1,0 +1,1 @@
+# Pergunte o salário e calcule o preço de um aumento. Para salários superiores a R$1250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
