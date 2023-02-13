@@ -4,5 +4,6 @@ multa = (veloc-80) * 7
 if veloc > 80:
     print(f'Você foi multado em R$ {multa},00')
 else:
-    print('Você passou dentro do limite de velocidade de 80 KM/H')
+    print('Você passou dentro do limite de velocidade permitida de 80 KM/H.')
+    print('Dirija com segurança!')
     
