@@ -4,3 +4,4 @@ e peça para o usuário escolher qual será a base de conversão:
 2 para octal
 3 para hexadecimal
 '''
+num = int(input('Digite um número inteiro para converter: '))
