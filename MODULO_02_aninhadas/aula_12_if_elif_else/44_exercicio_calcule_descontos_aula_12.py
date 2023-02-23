@@ -6,3 +6,4 @@ considerando o seu preço normal, e condição de pagamento:
 - em até 2x no cartão: preço normal
 - em 3x ou mais no cartão: 20% de juros no valor total
 '''
+preco = float(input('Qual é o valor do produto? '))

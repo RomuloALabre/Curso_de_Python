@@ -17,11 +17,11 @@ if ano > anoatual:
     print('Data inválida.')
 elif idade <= 9:
     print('Você está na categoria Mirim.')
-elif idade > 9 and idade <= 14:
+elif idade <= 14:
     print('Categoria Infantil.')
-elif idade > 14 and idade <= 19:
+elif idade <= 19:
     print('Categoria Júnior.')
-elif idade > 19 and idade <= 20:
+elif idade <= 20:
     print('Categoria Sênior.')
 else:
     print('Categoria Master.')

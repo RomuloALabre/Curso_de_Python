@@ -7,8 +7,8 @@ e mostre seu status, e acordo com a tabela abaixo:
 - 30 até 40: obesidade
 - acima de 40: obesidade mórbida
 '''
-peso = float(input('Digite o peso corporal: '))
-alt = float(input('Digite a altura: '))
+peso = float(input('Digite o peso corporal: (Kg) '))
+alt = float(input('Digite a altura: (m) '))
 alt1 = alt * 1
 imc = peso / (alt1**2)
 
@@ -19,7 +19,7 @@ elif imc > 18.5 and imc <= 25:
     print('Peso ideal!')
 elif imc > 25 and imc <= 30:
     print('Sobrepeso!')
-elif imc > 30 and imc <= 40:
+elif 30 < imc <= 40:
     print('Obesidade.')
 else:
     print('Obesidade mórbida.')

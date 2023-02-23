@@ -16,4 +16,4 @@ if prest >= (30 * salario)/100:
     print('Você não possui margem para o empréstimo. Tente aumentar o tempo para amortização.')
 
 else:
-    print(f'Empréstimo liberado no valor de R${prest:.2f} mensais')
+    print(f'Empréstimo liberado com prestações mensais no valor de R${prest:.2f} mensais')
