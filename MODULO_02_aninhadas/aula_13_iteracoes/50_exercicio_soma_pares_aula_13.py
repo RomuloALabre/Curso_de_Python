@@ -1,0 +1,1 @@
+'''Desenvolva um programa que leia seis números inteiros e mostrea soma apenas daqueles que foram pares. Se o valor digitado for impar, desconsidere-o.'''
