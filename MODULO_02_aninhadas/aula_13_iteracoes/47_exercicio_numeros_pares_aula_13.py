@@ -1,1 +1,10 @@
-'''Crie uma programa que mostre ma tela todos os números pares que estão no intervalo entre 1 e 50.'''
+'''Crie uma programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.'''
+for n in range(0,51):
+    if n % 2 == 0:    
+        print(f'{n} É um número par')
+    else:
+        print(f'{n} É um número ímpar')
+     
+#OU
+for n in range(0 , 51, 2):
+    print(f'{n} É um número par.')
