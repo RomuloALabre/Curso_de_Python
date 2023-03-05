@@ -5,6 +5,6 @@ for n in range(0,51):
     else:
         print(f'{n} É um número ímpar')
      
-#OU
+#OU resolução do professor
 for n in range(0 , 51, 2):
     print(f'{n} É um número par.')
