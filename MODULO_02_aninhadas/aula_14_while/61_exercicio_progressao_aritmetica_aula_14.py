@@ -4,9 +4,10 @@
 t = int(input('Digite o primeiro termo da PA: '))
 r = int(input('Digite a razão: '))
 d = int(input('Quantos termos deseja: '))
-c = 0
+c = 1
 pa = 0
-while c != d:
+while c <= d:
+    print(f'O {c}º termo da PA é: {pa}')
     pa += r
     c += 1
-    print(f'O {c}º termo da PA é: {pa}')
+    
