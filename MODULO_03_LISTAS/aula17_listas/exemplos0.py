@@ -32,3 +32,7 @@ print(num)
 print('Para remover um elemento: O "remove" busca a primeira ocorrência do valor.')
 num.remove(3)
 print(num)
+
+print('Encontrar o menor e o maior valor da lista:')
+print(f'O menor valor da lista é: {min(num)} e está na posição {num.index(min(num))+1}')   
+print(f'O maior valor da lista é: {max(num)} e está na posição {num.index(max(num))+1}') 
