@@ -17,5 +17,5 @@ for cont in range(1, 8):
         lista[1].append(num)
 lista[0].sort()
 lista[1].sort()
-print(f'A lista da números pares é: {lista[0]}')
+print(f'A lista de números pares é: {lista[0]}')
 print(f'E os números ímpares são: {lista[1]}')
