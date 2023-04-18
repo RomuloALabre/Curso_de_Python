@@ -9,7 +9,6 @@ from time import sleep
 jogo = []
 listajogos = []
 total = 1
-
 print('-'*30)
 print('      JOGA DA MEGA SENA      ')
 print('-'*30)
