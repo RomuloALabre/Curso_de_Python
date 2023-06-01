@@ -9,5 +9,6 @@ def teste(b):
 a = 5
 b = 1
 print(f'Na função principal, A vale {a}')
-teste(a)
 print(f'Na função principal, B vale {b}')
+teste(a)
+help(teste)
