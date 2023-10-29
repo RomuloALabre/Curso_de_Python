@@ -1,0 +1,44 @@
+def aumentar(preco=0, taxaa=0, formato=False):
+    '''
+    :param preco:
+    '''
+    res =  preco + ((preco * taxaa) / 100)
+    return res if not formato else moeda(res)
+
+    
+def diminuir(preco=0, taxa=0, formato=False):
+    res =  preco - (preco * taxa / 100)
+    return res if formato is False else moeda(res)
+
+def dobro(preco=0, formato=False):
+    res = preco * 2
+    return res if not formato else moeda(res)
+
+def metade(preco=0, formato=False):
+    res = preco / 2
+    return res if not formato else moeda(res)
+
+def moeda(preco=0, moeda = 'R$ '):
+    return f'{moeda}{preco:>.2f}'.replace('.', ',')
+
+def resumo(preco=0, taxaa=10, taxar=5):
+    print('-' *30)
+    print('RESUMO DO PREÇO!' .center(30))
+    print(f'O preço analisado: \t{moeda(preco)}')
+    print(f'{taxar} % de redução: \t{diminuir(preco, taxar, True)}')
+    print(f'{taxaa} % de aumento: \t{aumentar(preco, taxaa, True)}')
+    print(f'O dobro é: \t\t{dobro(preco, True)}')
+    print(f'A metada é: \t\t{metade(preco, True)}')
+    print('-' *30)
+
+def leiaDinheiro(msg):
+    valido = False
+    while not valido:
+        entrada = str(input(msg)).replace(',','.').strip()
+        if entrada.isalpha() or entrada == '':
+            print(f'\033[0;31mPreço \"{entrada}\" inválido, digite um valor numerico.\033[m.')
+        else:
+            valido = True
+            return float(entrada)
+
+
